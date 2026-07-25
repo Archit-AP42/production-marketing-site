@@ -1,0 +1,295 @@
+#navbarContent .mx-auto{margin-right: 0px !important;}
+
+:root {
+      --primary-accent: #0d6efd;
+      --secondary-dark: #0f172a;
+      --bg-surface: #f8fafc;
+      --card-hover-border: #93c5fd;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #334155;
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* Accessibility Focus Indicators */
+    a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible {
+      outline: 3px solid var(--primary-accent) !important;
+      outline-offset: 3px;
+    }
+
+    /* Skip link for accessibility */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 10px;
+      background: var(--primary-accent);
+      color: #fff;
+      padding: 8px 16px;
+      z-index: 9999;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: top 0.2s ease;
+    }
+    .skip-link:focus {
+      top: 10px;
+    }
+
+    /* Hero Styling */
+    .hero-section {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 90px 0 80px;
+    }
+    .hero-badge {
+      background: rgba(13, 110, 253, 0.15);
+      border: 1px solid rgba(13, 110, 253, 0.4);
+      color: #60a5fa;
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    /* Service Card Styling */
+    .service-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
+      height: 100%;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px -8px rgba(15, 23, 42, 0.08);
+      border-color: var(--card-hover-border);
+    }
+    .icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: 10px;
+      background-color: #eff6ff;
+      color: var(--primary-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+
+    /* Pricing Card Styling */
+    .pricing-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      background: #ffffff;
+      transition: border-color 0.2s ease;
+    }
+    .pricing-card.featured {
+      border: 2px solid var(--primary-accent);
+      position: relative;
+    }
+    .badge-popular {
+      position: absolute;
+      top: -14px;
+      right: 24px;
+      background-color: var(--primary-accent);
+      color: #ffffff;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    /* Section Spacing */
+    .section-padding {
+      padding: 80px 0;
+    }
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+      outline: 3px solid var(--primary-accent) !important;
+      outline-offset: 3px;
+    }
+
+    /* Accessibility Skip Link */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 10px;
+      background: var(--primary-accent);
+      color: #fff;
+      padding: 8px 16px;
+      z-index: 9999;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: top 0.2s ease;
+    }
+    .skip-link:focus {
+      top: 10px;
+    }
+
+    /* Page Header */
+    .product-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 100px 0 70px;
+    }
+
+    /* Feature Cards */
+    .product-card {
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      background: #ffffff;
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
+      height: 100%;
+    }
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 32px -12px rgba(15, 23, 42, 0.1);
+      border-color: #93c5fd;
+    }
+
+    .icon-wrapper {
+      width: 56px;
+      height: 56px;
+      border-radius: 12px;
+      background-color: #eff6ff;
+      color: var(--primary-accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+
+    /* Section Spacing */
+    .section-padding {
+      padding: 80px 0;
+    }
+
+    /* Filter Nav Tabs */
+    .nav-pills .nav-link {
+      color: #64748b;
+      font-weight: 500;
+      border-radius: 30px;
+      padding: 8px 20px;
+    }
+    .nav-pills .nav-link.active {
+      background-color: var(--primary-accent);
+      color: #ffffff;
+    }
+    /* Accessibility Skip Link */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 10px;
+      background: var(--primary-accent);
+      color: #fff;
+      padding: 8px 16px;
+      z-index: 9999;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: top 0.2s ease;
+    }
+    .skip-link:focus {
+      top: 10px;
+    }
+
+    /* Page Header */
+    .pricing-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 100px 0 70px;
+    }
+
+    /* Pricing Cards */
+    .pricing-card {
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      background: #ffffff;
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
+      height: 100%;
+    }
+    .pricing-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.1);
+    }
+    .pricing-card.popular-tier {
+      border: 2px solid var(--primary-accent);
+      position: relative;
+    }
+
+    .badge-popular {
+      position: absolute;
+      top: -14px;
+      right: 24px;
+      background-color: var(--primary-accent);
+      color: #ffffff;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Toggle Switch Styling */
+    .form-check-input:checked {
+      background-color: var(--primary-accent);
+      border-color: var(--primary-accent);
+    }
+
+    /* Section Spacing */
+    .section-padding {
+      padding: 80px 0;
+    }
+    /* Skip link for accessibility */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 10px;
+      background: var(--primary-accent);
+      color: #fff;
+      padding: 8px 16px;
+      z-index: 9999;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: top 0.2s ease;
+    }
+    .skip-link:focus {
+      top: 10px;
+    }
+
+    /* Contact Hero Header */
+    .contact-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #ffffff;
+      padding: 100px 0 70px;
+    }
+
+    /* Input Styling & Focus Effects */
+    .input-group-text {
+      border-color: #dee2e6;
+    }
+    .input-group:focus-within .input-group-text {
+      border-color: #86b7fe;
+      color: var(--primary-accent) !important;
+    }
+
+    /* Micro-interactions */
+    .contact-card-link {
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+    .contact-card-link:hover {
+      transform: translateY(-4px);
+      border-color: var(--primary-accent) !important;
+    }
+
+    .fs-7 {
+      font-size: 0.75rem;
+    }
+    .letter-spacing-1 {
+      letter-spacing: 1px;
+    }
+
+    .section-padding {
+      padding: 80px 0;
+    }
